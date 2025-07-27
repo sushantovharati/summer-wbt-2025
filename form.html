@@ -16,7 +16,7 @@
     <section>
         <form method="GET">
             <h2>Donor Information</h2>
-            <div class="formGroup">
+            <div class="donorInformation">
                 <div class="firstName">
                     <label for="firstName">First Name* </label>
                     <input type="text" id="firstName">
@@ -43,13 +43,13 @@
                 </div>
                 <div class="state">
                     <label for="state">State*</label>
-                   <select name="state" id="state">
-                    <option value="bangladesh">Bangladesh</option>
-                    <option value="india">India</option>
-                    <option value="usa">USA</option>
-                    <option value="uk">UK</option>
-                    <option value="nepal">Nepal</option>
-                   </select>
+                    <select name="state" id="state">
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="nepal">Nepal</option>
+                    </select>
                 </div>
                 <div class="phone">
                     <label for="phone">Phone </label>
@@ -79,13 +79,72 @@
                 </div>
                 <div class="recurringDonation">
                     <label for="recurringDonation">Recurring Donation </label>
-                    <input type="checkbox" name="recurringDonation" id="recurringDonation"> I am interested in giving on a regular basis.
+                    <input type="checkbox" name="recurringDonation" id="recurringDonation"> I am interested in giving on
+                    a regular basis.
                 </div>
                 <div class="monthlyCreditCard">
                     <label for="monthlyCreditCard">Monthly Credit Card $</label>
-                    <input type="number" name="money" id=""> For 
+                    <input type="number" name="money" id=""> For
                     <input type="number"> Months
                 </div>
+            </div>
+            <h2>Honorarium and Memorial Donation Information</h2>
+            <div class="honorariumAndMemorialDonationInfo">
+
+                <div class="name">
+                    <label for="name">Name </label>
+                    <input type="text" id="name">
+                </div>
+                <div class="acknowledgeDonation">
+                    <label for="acknowledgeDonation">Acknowledge Donation</label>
+                    <input type="text" name="acknowledgeDonation" id="acknowledgeDonation">
+                </div>
+                <div class="address">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address">
+                </div>
+                <div class="city">
+                    <label for="city" id="">City </label>
+                    <input type="text" id="city2">
+                </div>
+            </div>
+            <h2>Additional Information</h2>
+            <div class="additionalInfo">
+                <p>Please enter your name, company or organization as you would like it to appear in our publications:
+                </p>
+                <div class="additionalInfoName">
+                    <label for="additionalInfoName">Name </label>
+                    <input type="text" name="name" id="additionalInfo">
+                </div>
+                <div class="additionalInfoCheckBox">
+                    <input type="checkbox" name="" id="">I would like my gift to remain anonymous.
+                    <br>
+                    <input type="checkbox">My employer offers a matching gift program. I will mail the matching gift
+                    form.
+                    <br>
+                    <input type="checkbox">Please save the cost of acknowledging this gift by not mailing a thank you
+                    letter.
+                </div>
+                <div class="comments">
+                    <label for="comments">Comments </label>
+                    <textarea id="comment" name="comment" rows="5" cols="50"></textarea>
+                </div>
+                <div class="contact">
+                    <label for="contact">How may we contact you?</label>
+                    <input type="checkbox" name="email" id="contactEmail"> E-mail <br>
+                    <input type="checkbox" name="postalMail" id="postalMail"> Postal Mail <br>
+                    <input type="checkbox" name="telephone" id="telephone"> Telephone <br>
+                    <input type="checkbox" name="fax" id="fax"> Fax <br>
+                    <p>I would like to receive newsletters and information about special events by:</p>
+                    <input type="checkbox" name="receiveEmail" id="receiveEmail"> E-mail <br>
+                    <input type="checkbox" name="receivePostalMail" id="receivePostalMail">Postal Mail <br>
+                    <input type="checkbox" id="volunter">I would like information about volunteering with the
+                    <hr>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="resetBtn button">Reset</button>
+                <button class="continueBtn button">Continue</button>
             </div>
         </form>
 
