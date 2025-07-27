@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <section>
+        <form method="GET">
+            <h2>Donor Information</h2>
+            <div class="formGroup">
+                <div class="firstName">
+                    <label for="firstName">First Name* </label>
+                    <input type="text" id="firstName">
+                </div>
+                <div class="lastName">
+                    <label for="lastName">Last Name* </label>
+                    <input type="text" id="lastName">
+                </div>
+                <div class="company">
+                    <label for="company">Company </label>
+                    <input type="text" id="company">
+                </div>
+                <div class="address1">
+                    <label for="address1">Address 1* </label>
+                    <input type="text" id="address1">
+                </div>
+                <div class="address2">
+                    <label for="address2">Address 2* </label>
+                    <input type="text" id="address2">
+                </div>
+                <div class="city">
+                    <label for="city">City*</label>
+                    <input type="text" id="city">
+                </div>
+                <div class="state">
+                    <label for="state">State*</label>
+                   <select name="state" id="state">
+                    <option value="bangladesh">Bangladesh</option>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="nepal">Nepal</option>
+                   </select>
+                </div>
+                <div class="phone">
+                    <label for="phone">Phone </label>
+                    <input type="number" id="phone">
+                </div>
+                <div class="fax">
+                    <label for="fax">Fax </label>
+                    <input type="text" id="fax">
+                </div>
+                <div class="email">
+                    <label for="email">Email* </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="donationAmount">
+                    <label for="donationAmount">Donation Amount* </label>
+                    <input type="radio" name="Amount" id=""> None
+                    <input type="radio" name="Amount" id=""> $50
+                    <input type="radio" name="Amount" id=""> $75
+                    <input type="radio" name="Amount" id=""> $100
+                    <input type="radio" name="Amount" id=""> $250
+                    <input type="radio" name="Amount" id=""> Other
+                    <label for="statement">(Check a button or type In your amount)</label>
+                </div>
+                <div class="otherAmount">
+                    <label for="otherAmount">Other Amount $ </label>
+                    <input type="number" name="amount" id="amount">
+                </div>
+                <div class="recurringDonation">
+                    <label for="recurringDonation">Recurring Donation </label>
+                    <input type="checkbox" name="recurringDonation" id="recurringDonation"> I am interested in giving on a regular basis.
+                </div>
+                <div class="monthlyCreditCard">
+                    <label for="monthlyCreditCard">Monthly Credit Card $</label>
+                    <input type="number" name="money" id=""> For 
+                    <input type="number"> Months
+                </div>
+            </div>
+        </form>
+
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
