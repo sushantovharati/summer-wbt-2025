@@ -19,11 +19,11 @@
             <div class="donorInformation">
                 <div class="firstName">
                     <label for="firstName">First Name* </label>
-                    <input type="text" id="firstName">
+                    <input type="text" id="firstName" required>
                 </div>
                 <div class="lastName">
                     <label for="lastName">Last Name* </label>
-                    <input type="text" id="lastName">
+                    <input type="text" id="lastName" required>
                 </div>
                 <div class="company">
                     <label for="company">Company </label>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="address1">
                     <label for="address1">Address 1* </label>
-                    <input type="text" id="address1">
+                    <input type="text" id="address1" required>
                 </div>
                 <div class="address2">
                     <label for="address2">Address 2* </label>
@@ -39,16 +39,36 @@
                 </div>
                 <div class="city">
                     <label for="city">City*</label>
-                    <input type="text" id="city">
+                    <input type="text" id="city" required>
                 </div>
                 <div class="state">
                     <label for="state">State*</label>
-                    <select name="state" id="state">
+                    <select name="state" id="state" required>
+                        <option value="dhaka" required>Dhaka</option>
+                        <option value="khulna">khulna</option>
+                        <option value="barishal">Barishal</option>
+                        <option value="sylet">Sylet</option>
+                        <option value="chattogram">Chattogram</option>
+                        <option value="rajshahi">Rajshahi</option>
+                        <option value="mymensingh">Mymensingh</option>
+                        <option value="rangput">Rangpur</option>
+                    </select>
+                </div>
+                <div class="zipCode">
+                    <label for="zipCode">Zip Code*</label>
+                    <input type="number" name="zipCode" id="zipCode" required>
+                </div>
+                <div class="country">
+                    <label for="country">Country* </label>
+                    <select name="country" id="countrySelect" required>
                         <option value="bangladesh">Bangladesh</option>
                         <option value="india">India</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="sriLanka">Sri-Lanka</option>
                         <option value="usa">USA</option>
                         <option value="uk">UK</option>
-                        <option value="nepal">Nepal</option>
+                        <option value="australia">Australia</option>
                     </select>
                 </div>
                 <div class="phone">
@@ -61,11 +81,11 @@
                 </div>
                 <div class="email">
                     <label for="email">Email* </label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                 </div>
                 <div class="donationAmount">
                     <label for="donationAmount">Donation Amount* </label>
-                    <input type="radio" name="Amount" id=""> None
+                    <input type="radio" name="Amount" id="" required> None
                     <input type="radio" name="Amount" id=""> $50
                     <input type="radio" name="Amount" id=""> $75
                     <input type="radio" name="Amount" id=""> $100
