@@ -34,6 +34,9 @@ h2{
     margin-top: 0;
     color: gray;
 }
+.star{
+    color: red;
+}
 
 .buttonSection{
     margin: auto 300px;

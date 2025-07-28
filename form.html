@@ -9,14 +9,17 @@
 </head>
 
 <body>
+    <header>
+
+    </header>
     <form method="get" class="form-contain">
         <h2>Donor Information</h2>
         <div class="form-group">
-            <label for="firstName">First Name* </label>
+            <label for="firstName">First Name<span class="star">*</span> </label>
             <input type="text" id="firstName" required>
         </div>
         <div class="form-group">
-            <label for="lastName">Last Name* </label>
+            <label for="lastName">Last Name<span class="star">*</span> </label>
             <input type="text" id="lastName" required>
         </div>
         <div class="form-group">
@@ -24,19 +27,19 @@
             <input type="text" id="company">
         </div>
         <div class="form-group">
-            <label for="address1">Address 1* </label>
+            <label for="address1">Address 1<span class="star">*</span> </label>
             <input type="text" id="address1" required>
         </div>
         <div class="form-group">
-            <label for="address2">Address 2* </label>
+            <label for="address2">Address 2 </label>
             <input type="text" id="address2">
         </div>
         <div class="form-group">
-            <label for="city">City*</label>
+            <label for="city">City<span class="star">*</span></label>
             <input type="text" id="city" required>
         </div>
         <div class="form-group">
-            <label for="state">State*</label>
+            <label for="state">State<span class="star">*</span></label>
             <select name="state" id="state" required>
                 <option selected disabled>Select a State</option>
                 <option value="dhaka" required>Dhaka</option>
@@ -50,11 +53,11 @@
             </select>
         </div>
         <div class="form-group">
-            <label for="zipCode">Zip Code*</label>
+            <label for="zipCode">Zip Code<span class="star">*</span></label>
             <input type="number" name="zipCode" id="zipCode" required>
         </div>
         <div class="form-group">
-            <label for="country">Country* </label>
+            <label for="country">Country<span class="star">*</span> </label>
             <select name="country" id="countrySelect" required>
                 <option selected disabled>Select a Country</option>
                 <option value="bangladesh">Bangladesh</option>
@@ -76,12 +79,12 @@
             <input type="text" id="fax">
         </div>
         <div class="form-group">
-            <label for="email">Email* </label>
+            <label for="email">Email<span class="star">*</span> </label>
             <input type="email" name="email" id="email" required>
         </div>
         <div class="form-group">
             <label for="donationAmount" class="form-label">
-                Donation Amount* <br>
+                Donation Amount<span class="star">*</span> <br>
                 <small class="help-text">(Check a button or type in your amount)</small>
             </label>
             <div class="radio-options">
@@ -163,7 +166,7 @@
             <input type="text" id="city2">
         </div>
         <div class="form-group">
-            <label for="state">State*</label>
+            <label for="state">State</label>
             <select name="state" id="state" required>
                 <option selected disabled>Select a State</option>
                 <option value="dhaka" required>Dhaka</option>
@@ -244,6 +247,9 @@
                 <button class="continueBtn">Continue</button>
             </div>
     </form>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
