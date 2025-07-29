@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 248, 243,1);
+}
+section{
+    padding: 10px 11%;
+}
+.dataSoftCompany, .bjitCompany, .tigerItCompany{
+    margin-bottom: 20px;
+    display: flex;
+    border: 3px solid orange;
+    background-color: rgb(246, 239, 254);
+}
+.imageSection .textSection{
+    width: 50%;
+}
+.imageSection img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.textSection{
+    padding-left: 55px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+.textSection h1{
+    padding: 10px;
+    font-size: 30px;
+}
+.textSection li{
+    font-size: 20px;
+}
+img{
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}

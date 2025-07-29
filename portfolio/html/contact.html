@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My e-Portfolio/Contact Me</title>
+    <link rel="stylesheet" href="..\css/contact.css">
+    <link rel="stylesheet" href="..\css/nav.css">
+    <link rel="stylesheet" href="..\css/footer.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <div><a href="..\index.html">Home</a></div>
+                </li>
+                <li>
+                    <div><a href="education.html">Education</a></div>
+                </li>
+                <li>
+                    <div><a href="experience.html">Experience</a></div>
+                </li>
+                <li>
+                    <div><a href="projects.html">Projects</a></div>
+                </li>
+                <li>
+                    <div><a href="contact.html">Contact Me</a></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <form method="get" class="form-contain">
+            <div class="form-group">
+                <label for="fname">First Name:</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="lname">Last Name:</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="you@email.com" required>
+            </div>
+            <div class="form-group">
+                <label for="reason">Reason of Contact:</label>
+                <div class="radio-option">
+                    <label class="radio-label">
+                        <input type="radio" name="reason" value="projects" required > Projects</label> <br>
+                    <label class="radio-label">
+                        <input type="radio" name="reason" value="thesis"> Thesis
+                    </label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="reason" value="meeting"> Meeting
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="service">Service:</label>
+                <div class="checkbox-option">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="service" value="Web Development"> Web Development
+                    </label><br>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="service" value="C# expert"> C# Expert
+                    </label><br>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="service" value="Java expert"> Java Expert
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="joboffering">Are you offering job? <br><small class="help-text">(Optional)</small></label>
+                <div class="radio-option">
+                    <label class="radio-label">
+                        <input type="radio" name="option" value="yes"> Yes
+                    </label><br>
+                    <label class="radio-label">
+                        <input type="radio" name="option" value="no"> No
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="yourposition">Select Your Position:</label>
+                <select name="Position" id="">
+                    <option selected disabled>Select a Position</option>
+                    <option value="ceo">CEO</option>
+                    <option value="hr">HR</option>
+                    <option value="employee">Employee</option>
+                </select>
+            </div>
+            <div class="formBtn">
+                <input id="submitBtn" type="submit" value="Send">
+            </div>
+        </form>
+    </section>
+    <hr>
+    <footer>
+        <div class="contain">
+            <div class="contactInfo">
+                    Address: House-43/D, Road No-04, Block-D, Bashundhara R/A, Dhaka <br>
+                    Mobile: +8801601007474, +8801792582080 <br>
+                    Email: sushantovharati.sv@gmail.com <br>
+            </div>
+            <div class="socialLink">
+                <a href="https://x.com/sv_sushanto?t=oGFEB2X29y_3HgELCauXYA&s=09"><img src="..\image/icon_x.png"
+                        alt=""></a>
+                <a href="https://www.linkedin.com/in/sushantovharati"><img src="..\image/icon_LN.png" alt=""></a>
+                <a href="https://www.instagram.com/sushantovharati"><img src="..\image/icon_instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/share/16cgzH5Jop/"><img src="..\image/icon_fb.png" alt="FaceBook"></a>
+            </div>
+        </div>
+        <div class="copyRight">
+            <p>&copy; 2025 Sushanto Vharati. All rights reserved.</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
