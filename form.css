@@ -27,17 +27,13 @@
     text-align: right;
     color: gray;
 }
-h2{
+h2, .star{
     color: red;
 }
 #receive-info{
     margin-top: 0;
     color: gray;
 }
-.star{
-    color: red;
-}
-
 .buttonSection{
     margin: auto 300px;
 }
@@ -45,4 +41,10 @@ button{
     padding: 5px;
     width: max-content;
     border-radius: 20px;
+}
+.monthlyCredit{
+    width: 35px;
+}
+select{
+    width: 175px;
 }
