@@ -38,6 +38,7 @@ h2, .star{
     margin: auto 300px;
 }
 button{
+    margin-top: 15px;
     padding: 5px;
     width: max-content;
     border-radius: 20px;
@@ -47,4 +48,15 @@ button{
 }
 select{
     width: 175px;
+}
+.otherAmount{
+    width: 60px;
+}
+.wish-checkbox{
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+}
+.wish-checkbox label, .additional-info-label{
+    line-height: 30px;
 }
