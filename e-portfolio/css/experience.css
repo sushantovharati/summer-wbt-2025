@@ -3,37 +3,46 @@
     padding: 0;
 }
 body{
-    background-color: rgb(255, 248, 243,1);
+    background-color: #7ac2fd;
 }
 section{
     padding: 10px 11%;
 }
-.dataSoftCompany, .bjitCompany, .tigerItCompany{
-    margin-bottom: 20px;
+.dataSoftCompany-container, .bjitCompany-container, .tigerItCompany-container{
+    margin-bottom: 15px;
+    height: 250px;
     display: flex;
-    border: 3px solid orange;
-    background-color: rgb(246, 239, 254);
+    border: 5px solid orange;
+    border-radius: 10px;
+    background-color: #c8e5fc;
 }
-.imageSection .textSection{
-    width: 50%;
-}
-.imageSection img{
-    height: 100px;
-    width: 100px;
+.image-section{
+    width: 25%;
     display: flex;
     justify-content: center;
     place-items: center;
+} 
+.image-section img{
+    height: 200px;
+    width: 200px;
 }
-.textSection{
-    padding-left: 55px;
-    padding-right: 20px;
+#tigerIt-logo{
+    height:150px;
+    width: 200px;
+}
+.text-section{
+    padding: 0px 20px 0px 55px;
     line-height: 30px;
 }
-.textSection h1{
-    padding: 10px;
+.text-section h1{
+    padding: 15px 15px 15px 0px;
     font-size: 30px;
 }
-.textSection li{
+.text-section h3{
+    padding-left: 20px;
+}
+.text-section ul{
+    padding-left: 50px;
     font-size: 20px;
 }
 img{

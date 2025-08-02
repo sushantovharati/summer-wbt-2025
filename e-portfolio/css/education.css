@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(255, 248, 243,1);
+    background-color: #7ac2fd;
 }
 section{
     padding: 10px 11%;
@@ -14,8 +14,8 @@ section{
     height: 300px;
     display: flex;
     justify-content: space-around;
-    border: 3px solid orange;
-    background-color: rgb(246, 239, 254);
+    border: 5px solid orange;
+    background-color: #c8e5fc;
 }
 .image{
     width: 45%;
