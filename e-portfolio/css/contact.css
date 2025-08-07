@@ -44,3 +44,6 @@ select{
     background-color: rgba(253, 110, 10,1);
     font-family:'Times New Roman', Times, serif;
 }
+#submitBtn:hover{
+    cursor: pointer;
+}

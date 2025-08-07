@@ -33,7 +33,7 @@ section {
     transform: scale(1.3);
     transform-origin: left;
     opacity: 1;
-    cursor:grab;
+    cursor:pointer;
 }
 
 .text-container h2 {
@@ -73,6 +73,6 @@ button a {
     text-align: center;
 }
 .button-cv{
-    cursor: grab;
+    cursor: pointer;
 }
 
