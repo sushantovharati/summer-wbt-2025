@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 10%;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.error{
+    color: red;
+}
+small{
+    color: gray;
+}

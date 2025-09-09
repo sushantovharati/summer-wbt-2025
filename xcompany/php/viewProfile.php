@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Profile</title>
+    <link rel="stylesheet" href="..\css/base.css">
+    <link rel="stylesheet" href="..\css/nav.css">
+    <link rel="stylesheet" href="..\css/footer.css">
+    <link rel="stylesheet" href="..\css/viewProfile.css">
+</head>
+
+<body>
+    <header class="header-section">
+        <nav class="navbar">
+            <div class="brand">
+                <div class="brand-logo">
+                    <img src="..\images/logo.ico" alt="brand logo">
+                </div>
+                <div class="brand-name">Company</div>
+            </div>
+            <ul class="nav-list">
+                <label for="welcome">Logged In as </label>
+                <a href="editProfile.php">Bob</a>
+                <li class="nav-item"><a href="..\index.php">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-section display-flex">
+        <div class="left-section">
+            <h3 class="section-title">Account</h3>
+            <hr>
+            <div class="list">
+                <ul class="list">
+                    <li class="list-item"><a href="loggedInDashboard.php">Dashboard</a></li>
+                    <li class="list-item"><a href="viewProfile.php">View profile</a></li>
+                    <li class="list-item"><a href="editProfile.php">Edit profile</a></li>
+                    <li class="list-item"><a href="changeProfilePicture">Change Profile Picture</a></li>
+                    <li class="list-item"><a href="changePassword.php">Change Password</a></li>
+                    <li class="list-item"><a href="..\index.php">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-section display-flex">
+            <div class="text-section">
+                <h1>PROFILE</h1>
+                <label for="name">Name:</label>
+                <hr>
+                <label for="email">Email:</label>
+                <hr>
+                <label for="gender">Gender:</label>
+                <hr>
+                <label for="dob">Date of Birth:</label>
+                <hr>
+                <a href="editProfile.php">Edit Profile</a>
+            </div>
+            <div class="img-section display-flex">
+                <img src="..\images/logo.png" alt="Your Profile">
+                <a href="">Change</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer-section">
+        <p>Copyright &copy; 2017</p>
+    </footer>
+</body>
+
+</html>

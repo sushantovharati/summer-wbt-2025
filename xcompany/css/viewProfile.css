@@ -1,0 +1,26 @@
+.main-section .left-section{
+    width: 20%;
+}
+.main-section .left-section .list{
+    margin-left: 20px;
+}
+.main-section .left-section hr{
+    width: 80%;
+    text-align: center;
+}
+.main-section .right-section .text-section h1{
+    margin-bottom: 20px;
+}
+.main-section .right-section .text-section label{
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+.main-section .right-section .img-section{
+    flex-direction: column;
+    justify-content: center;
+}
+.main-section .right-section .img-section img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}

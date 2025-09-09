@@ -1,0 +1,19 @@
+.navbar, 
+.brand,
+.nav-list {
+    display: flex;
+}
+.brand{
+    align-items: center;
+}
+.navbar{
+    justify-content: space-between;
+}
+.navbar .brand .brand-logo img{
+    width: 30px;
+    height: 30px;
+}
+.nav-list li{
+    list-style: none;
+    margin-left: 10px;
+}
