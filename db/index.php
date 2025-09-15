@@ -5,15 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price List</title>
-    <style>
-        table,
-        th,
-        td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 8px;
-        }
-    </style>
 </head>
 
 <body>
@@ -29,7 +20,6 @@
         die("Connection failed: " . mysqli_connect_error());
     }
 
-    // Create table if not exists
     $sql = "CREATE TABLE IF NOT EXISTS PriceList (
         id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         pname VARCHAR(30) NOT NULL,
@@ -121,9 +111,7 @@
                     echo "<td>" . number_format($profit, 2) . "</td>";
                     echo "</tr>";
                 }
-            } else {
-                echo "<tr><td colspan='2'>No products found</td></tr>";
-            }
+            } 
             ?>
         </tbody>
     </table>
